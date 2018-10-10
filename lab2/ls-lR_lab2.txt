@@ -1,0 +1,10 @@
+	drw-rw-r--. 2 Sergey Sergey 22 окт 10 16:24 dir
+	-r--r-----. 1 root   Sergey  5 окт 10 16:21 file
+	-rw-------. 1 Sergey Sergey  0 окт 10 16:56 file1
+	-rw-rw-rw-. 1 Sergey Sergey  0 окт 10 17:00 file2
+
+	./dir:
+	ls: невозможно получить доступ к ./dir/new_file: Отказано в доступе
+	итого 0
+	-????????? ? ? ? ?            ? new_file
+

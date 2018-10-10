@@ -1,0 +1,42 @@
+    1  mkdir test 
+    2  cd test 
+    3  touch file
+    4  ls -l
+    5  chmod 000 file
+    6  echo "тест" > file
+    7  cat file 
+    8  chmod u+w file
+    9  ll
+   10  echo "test" > file
+   11  cat file
+   12  chmod g+w file
+   13  ll
+   14  chmod g-w+r file
+   15  ll
+   16  cat file
+   17  chmod u+r file
+   18  cat file 
+   19  mkdir dir
+   20  touch dir/new_file
+   21  echo "file 2" > dir/new_file
+   22  ls dir
+   23  chmod a-x dir
+   24  ls -l
+   25  cat dir/new_file
+   26  rm dir/new_file
+   27  man chown
+   28  chown root file
+   29  chown Sergey:root file
+   30  ls -l
+   31  umask 066
+   32  touch file1
+   33  ll
+   34  umask 0
+   35  touch file2
+   36  ll
+   37  cat file
+   38  ll
+   39  cat file
+   40  history
+   41  cd ~
+   42  history > history_lab2.txt
