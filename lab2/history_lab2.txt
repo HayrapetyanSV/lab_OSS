@@ -40,3 +40,4 @@
    40  history
    41  cd ~
    42  history > history_lab2.txt
+   43  dfgsr
